@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--inicia version 2.0-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body class="fondo">
+
+    <div id="div">
+        <h1>calcula.tor</h1>
+    </div>
+    <div class="container">
+        <div id="caja-respuesta">
+            <input id="input" type="text" disabled>
+        </div>
+        <div id="pri-gr-num">
+            <button id="btn1" class="botones" value="1">1</button>
+            <button id="btn2" class="botones" value="2">2</button>
+            <button id="btn3" class="botones" value="3">3</button>
+            <button id="btnS" class="botones" value="+">+</button>
+        </div>
+
+        <div id="seg-gr-num">
+            <button id="btn4" class="botones" value="4">4</button>
+            <button id="btn5" class="botones" value="5">5</button>
+            <button id="btn6" class="botones" value="6">6</button>
+            <button id="btnR" class="botones" value="-">-</button>
+        </div>
+        <div id="ter-gr-num">
+            <button id="btn7" class="botones" value="7">7</button>
+            <button id="btn8" class="botones" value="8">8</button>
+            <button id="btn9" class="botones" value="9">9</button>
+            <button id="btnP" class="botones" value="*">x</button>
+        </div>
+        <div id="cuar-gr-num">
+            <button id="btnB" value="c" class="botones">c</button>
+            <button id="btn0" class="botones" value="0">0</button>
+            <button id="btnI" class="botones" value="=">=</button>
+            <button id="btnD" class="botones" value="/">/</button>
+
+        </div>
+    </div>
+    <div id="resultados">
+        <h4>
+            <span>Resultados</span>
+            <button id="deleteImp">Delete</button>
+        </h4>
+        <div id="resulImp">
+            <span></span>
+        </div>
+    </div>
+    <footer>
+        <!--
+        <a href='https://www.freepik.es/fotos/fondo'>Foto de Fondo creado por freepik - www.freepik.es</a>
+        ---->
+    </footer>
+    <script src="js/calculadora.js"></script>
+
+</body>
+
+</html>
