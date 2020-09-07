@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border box permite que el ancho y a altura sea establecido por nosotros*/
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    /*font: 100% Courier New;
+    /*font-family: verdana;*/
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(102, 92, 82);
+    /*background-image: url("../img/fondo.jpg");*/
+    background-color: black;
+    background-size: 800px;
+    /* hace que la imagen se ajuste a la pantalla 
+     el valor "fixed" hace que la img sea fija*/
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 60px;
+}
+
+#pri-gr-num,
+#seg-gr-num,
+#ter-gr-num,
+#cuar-gr-num,
+#quin-gr-num {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: white;
+    width: 340px;
+    height: 280px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 1px black;
+}
+
+.botones {
+    width: 67.8px;
+    height: 40px;
+    background-color: #66ff66;
+    border: solid 1px;
+}
+
+#input {
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#caja-respuesta {
+    width: 300px;
+    margin: auto;
+}
+
+#btnI {
+    background-color: rgb(255, 165, 0);
+}
+
+h1,
+#resultados {
+    text-align: center;
+    border-color: #668cff;
+    border-style: solid none solid none;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#resultados {
+    color: white;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#div {
+    /* la unidad em representa 1em = 16px
+    se adapa a diversidad de navegadores*/
+    font-size: 2.5em;
+}
